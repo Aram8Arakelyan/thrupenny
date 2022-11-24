@@ -1,0 +1,22 @@
+:root {
+    --buttonBackgroundColor: linear-gradient(95.17deg, #2F5CF5 1.42%, #57A4F5 100%);
+    --buttonHoverBackgroundColor: #305DF6;
+    --buttonDisabledBackgroundColor: rgba(46, 90, 244, 0.2);
+    --whiteColor: #FCFCFF;
+    --buttonDisabledColor: rgba(252, 252, 255, 0.4);
+    --landingBackgroundColor:  linear-gradient(69.18deg, #2A2740 0%, #37344E 100%);
+    --defaultBodyColoe: #312E47;
+    --headerBackgroundColor: #35314B;
+    --navbarItemBackgroundColor: #2A2741;
+    --navbarItemColor: var(--whiteColor);
+    --navBarHoverColor: var(--whiteColor);
+}
+
+.light-mode {
+    --buttonDisabledColor: rgba(21, 19, 35, 0.4);
+    --defaultBodyColoe: #EFF1FF;
+    --headerBackgroundColor: var(--whiteColor);
+    --navbarItemBackgroundColor: #E4E7FF;
+    --navbarItemColor: #151323;
+    --navBarHoverColor: #151323;
+}
