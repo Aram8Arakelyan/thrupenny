@@ -6,12 +6,12 @@ import Header from './components/Header';
 import { ThemeContext } from './contexts/ThemeContext';
 import { LOCALES } from './i18n/locales';
 import { messages } from './i18n/messages';
+import { IntlProvider } from 'react-intl';
 
 import './App.css';
 
 import BackgroundImageLight from './images/background-light.svg';
 import BackgroundImageDark from './images/background.svg';
-import { IntlProvider } from 'react-intl';
 
 function getInitialLocal() {
   const savedLocale = localStorage.getItem('locale');
